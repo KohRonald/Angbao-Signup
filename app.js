@@ -26,7 +26,7 @@ app.post('/', function(req, res) {
     const lastName = req.body.lastName;
     const email = req.body.email;
 
-    //store the information into a object
+    //store the information as properties into a variable
     const subscribingUser = {
         firstName: firstName,
         lastName: lastName,
